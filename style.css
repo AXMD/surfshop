@@ -152,3 +152,38 @@
 	line-height: 49px;
 	display: inherit;
 }
+
+.media_header{
+	width: 150px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	right: 229px;
+}
+
+.mediahead{
+	width: 16px;
+	height: 16px;
+	background-image: url(img/social.png);
+	display: inline-block;
+}
+
+.twit{
+	background-position: -23px 0;
+	margin-right: 7px;
+}
+
+.yt{
+	background-position: -50px;
+	margin-right: 7px;
+}
+
+.pin{
+	background-position: 43px;
+	margin-right: 7px;
+}
+
+.insta{
+	background-position: 16px;
+}
