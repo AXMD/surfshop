@@ -26,14 +26,13 @@
 }
 
 .body{
-	background-color: grey;
+	background-color:  #f8f8f8;
 }
 
 .price_cards {
 	background-color:  #f8f8f8;
 	width: 870px;
 	height: 1654px;
-	border: 1px solid black;
 	float: right;
 	margin-right: 165px;
 	margin-bottom: 30px;
@@ -42,7 +41,6 @@
 .menu_and_box{
 	width: 270px;
 	height: 805px;
-	border: 1px solid black;
 	float: left;
 	margin-left: 165px;
 }
@@ -62,14 +60,11 @@
 	width: 1170px;
 	height: 350px;
 	margin: 0 165px 0 165px;
-	border: 1px solid black;
 }
 
 .smedia{
 	width: 1170px;
 	height: 150px;
-	background-color: black;
-	border: 1px solid black;
 	margin: 0 165px 0 165px;
 }
 
@@ -381,4 +376,54 @@ h5{
 	height: 274px;
 	padding-top: 29px;
 	padding-left: 20px; 
+}
+
+.btfb{
+	background-color:  #3b5997;
+	width: 390px;
+	float: left;
+	height: 150px;
+	display: inline;
+}
+.btpin{
+	background-color:  #cb2027;
+	float: right;
+	width: 390px;
+	height: 150px;
+	display: inline;
+}
+
+.bttwit{
+	background-color:  #3fccfd;
+	width: 390px;
+	height: 150px;
+	display: inline-block;
+
+}
+
+.btfb a{
+	background-image: url(img/ficon.png);
+	width: 30px;
+	height: 62px;
+	display: block;
+	margin-left: 180px;
+	margin-top: 44px;
+}
+
+.bttwit a{
+	background-image: url(img/twicon.png);
+	width: 64px;
+	height: 52px;
+	display: block;
+	margin-top: 49px;
+	margin-left: 163px;
+}
+
+.btpin a{
+	background-image: url(img/pinicon.png);
+	width: 64px;
+	height: 64px;
+	display: block;
+	margin-left: 163px; 
+	margin-top: 43px;
 }
