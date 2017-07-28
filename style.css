@@ -429,43 +429,217 @@ h5{
 }
 
 .top_footer{
-	width: 1308px;
-	background-color: red;
-	height: 226px;
-	padding-top: 75px;
-	padding-left: 192px;
+	background-color:  #373737;
+	width: 1500px;
+	height: 301px;
+	position: relative;
 }
 
 .bottom_footer{
 	width: 100%;
 	height: 47px;
-	background-color: green;
+	background-color:  #333333;
 }
 
 .footer_boxes{
-	border: 1px solid black;
 	display: inline-block;
+	margin-top: 55px;
 }
 .category{
-	height: 162px;
-	width: 84px;
+	height: 190px;
+	width: 125px;
 	margin-right:88px;
+	margin-left: 150px;
 }
 .our_account{
-	width: 113px;
+	width: 170px;
 	height: 160px;
 	margin-right: 77px;
 }
 .our_support{
-	width: 106px;
+	width: 112px;
 	height: 162px;
 	margin-right: 79px;
 }
 .newsletter{
 	width: 267px;
 	height: 162px;
-	margin-right: 46px;}
+	margin-right: 46px;
+}
 .about_us{
 	width: 233px;
 	height: 160px;
+	position: absolute;
+	top: 55px;
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+ul{
+	list-style: none;
+}
+
+.h6{
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 27px;
+}
+
+.newsletter h6, .about_us h6{
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 8px;
+}
+.p{
+	font-family: Roboto;
+	color:  #f8f8f8;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 12px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.buttons{
+	width: 100%;
+}
+.field{
+	background-color:  #fff51f;
+	width: 180px;
+	height: 30px;
+	font-family: Roboto;
+	color:  #333333;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 21px;
+	text-align: left;
+	border:0;
+	float: left;
+}
+.button{
+	background-color:  #000000;
+	width: 71px;
+	height: 30px;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+	border:0;
+}
+.payment{
+	width: 100%;
+	height: 22px;
+	margin-top: 45px;
+}
+
+.payment_link{
+	background-image: url(img/payment.png);
+	width: 36px;
+	height: 22px;
+	display: inline-block;
+}
+.pay1{
+	margin-right: 3px;
+}
+.pay2{
+	background-position: -46px 0;
+	margin-right: 3px;
+}
+.pay3{
+	background-position: -92px 0;
+	margin-right: 3px;
+}
+.pay4{
+	background-position: 128px 0;
+	margin-right: 3px;
+}
+.pay5{
+	background-position: 81px 0;
+	margin-right: 3px;
+}
+.pay6{
+	background-position: 36px 0;
+}
+.phonee, .emaill{
+	width: 100%;
+	display: block;
+	height: 20px;
+}
+.left{
+	float: left;
+	display: inline-block;
+}
+.right{
+	display: inline-block;
+	float: right;
+}
+
+.phonee p, .left{
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+}
+.maill{
+	font-family: Roboto;
+	color:  #faef03;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.copyright{
+	display: inline-block;
+	margin-left: 189px;
+	margin-top: 21px;
+	font-family: Roboto;
+	color:  #dad9d9;
+	font-size: 12px;
+	font-weight: 400;
+}
+.footermedia{
+	display: inline-block;
+	float: right;
+	width: 300px;
+	height: 20px;
+	margin-top: 19px;
+	margin-right: 70px;
+}
+.footerlinks{
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	margin-right: 12px;
+	background-image: url(img/social_icons.png);
+}
+.twit1{
+	background-position: -21px 0;
+}
+.pin1{
+	background-position: -50px 0;
+}
+.goog1{
+	background-position: -78px 0;
+}
+.tu1{
+	background-position: -105px 0;
+}
+.insta1{
+	background-position: 44.6px 0;
+}
+.r1{
+	background-position: 15px 0;
 }
