@@ -1,6 +1,16 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+
  @font-face{
  	font-family: 'Raleway';
  	src: url(fonts/Raleway/Raleway-Regular.ttf);
+ }
+
+ @font-face{
+ 	font-family: 'Roboto';
+ 	src: url(fonts/Roboto/Roboto-Regular.ttf);
  }
 
 .container{
@@ -22,10 +32,11 @@
 .price_cards {
 	background-color:  #f8f8f8;
 	width: 870px;
-	height: 1644px;
+	height: 1654px;
 	border: 1px solid black;
 	float: right;
 	margin-right: 165px;
+	margin-bottom: 30px;
 }
 
 .menu_and_box{
@@ -33,17 +44,17 @@
 	height: 805px;
 	border: 1px solid black;
 	float: left;
-	background-color: orange;
 	margin-left: 165px;
 }
 
 .brand{
 	background-color:  #ffffff;
-	width: 1170px;
+	width: 1151px;
 	height: 160px;
 	clear: both;
-	border: 1px solid black;
 	margin: 0 165px 0 165px;
+	padding-left: 14px;
+	padding-right: 5px;
 }
 
 .instagram{
@@ -186,4 +197,143 @@
 
 .insta{
 	background-position: 16px;
+}
+
+.product_box{
+	width: 100%;
+}
+
+.new_products{
+	height: 769px;
+}
+
+.top_products{
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+.sale_products{
+	height: 400px;
+}
+.new_products h3{
+	font-family: Roboto;
+	color:  #707070;
+	font-size: 22px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+	display: block;
+	margin-left: 25px;
+	margin-top: 31px;
+	width: 100%;
+	margin-bottom: 31px;
+}
+
+.double_card1, .double_card2, .double_card3{
+	height: 670px;
+	width: 270px;
+	display: inline-block;
+}
+
+.card_margin{
+	margin-right: 25px;
+}
+
+.cards{
+	background-color:  #ffffff;
+	width: 100%;
+	height: 320px;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.top_products h3, .sale_products h3{
+	font-family: Roboto;
+	color:  #717171;
+	font-size: 22px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+	margin-top: 24px;
+	margin-left: 31px;
+	margin-bottom: 30px;
+	display: block;
+	width: 100%;
+}
+
+.cards2{
+	background-color:  #ffffff;
+	width: 270px;
+	height: 320px;
+	display: inline-block;
+}
+
+.menu{
+	background-color:  #26d2fc;
+	width: 270px;
+	height: 475px;
+	margin-bottom: 30px;
+}
+
+.now_is_open{
+	background-color:  #e0e0e0;
+	width: 270px;
+	height: 300px;
+	position: relative;
+}
+
+.now_is_open h2{
+	font-family: Raleway;
+	color:  #333333;
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 36px;
+	text-align: left;
+	display: block;
+	position: absolute;
+	left: 142px;
+	top: 129px;
+}
+
+.menu_button{
+	background-color: #333333;
+	height: 50px;
+	display: block;
+	width: 228px;
+	padding-left: 42px;
+	line-height: 50px;
+	text-decoration: none;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: left;
+}
+.menu_links{
+	display: block;
+	width: 228px;
+	height: 35px;
+	padding-left: 42px;
+	line-height: 35px;
+	text-decoration: none;
+	font-family: Roboto;
+	color:  #000;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.menu_links:hover{
+	background-color: #333333;
+	color:  #ffffff;
+}
+
+.brand a{
+	height: 100%;
+	display: inline-block;
+	width: 130px;
+	background-image: url(img/brands.png);
+	background-repeat: no-repeat;
+	background-position: 0 70px;
+	margin-right: 9.5px;
 }
