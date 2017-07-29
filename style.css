@@ -16,6 +16,7 @@
 .container{
 	width: 1500px;
 	height: 3365px;
+	margin: 0 auto;
 }
 
 .header{
@@ -36,6 +37,8 @@
 	float: right;
 	margin-right: 165px;
 	margin-bottom: 30px;
+	position: relative;
+	top: -20px;
 }
 
 .menu_and_box{
@@ -43,6 +46,8 @@
 	height: 805px;
 	float: left;
 	margin-left: 165px;
+	position: relative;
+	top: -20px;
 }
 
 .brand{
